@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content="Presentación visual sobre los fundamentos de la astrofotografía, pensada para fotógrafos." />
+    <meta name="theme-color" content="#04060d" />
+    <title>Astrofotografía para fotógrafos</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2304060d'/%3E%3Cpath d='M16 5l2.6 8.4L27 16l-8.4 2.6L16 27l-2.6-8.4L5 16l8.4-2.6z' fill='%238cb4ff'/%3E%3C/svg%3E" />
+    <script>
+      try {
+        var t = localStorage.getItem('theme');
+        if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <canvas id="bg-stars" aria-hidden="true"></canvas>
+    <div id="app"></div>
+    <noscript>Esta presentación necesita JavaScript.</noscript>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
