@@ -1,0 +1,11 @@
+{
+  "title": "Astrofotografía para fotógrafos",
+  "author": {
+    "name": "Daian Gan",
+    "instagram": "daiangan",
+    "website": "daiangan.com",
+    "tagline": "Computer Scientist by day, Amateur Astronomer by night."
+  },
+  "repository": "https://github.com/daiangan/astrofotografia-para-fotografos",
+  "sky": { "latitude": 20, "label": "20° N" }
+}
